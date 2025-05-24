@@ -30,10 +30,21 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-custom">
-    <div class="container position-relative">
+  <div class="container position-relative">
 
+    <!-- Center logo -->
+    <a class="navbar-brand center-logo text-center mx-auto" href="#">
+      <img src="./fabassests/logo (1).png" class="fabindia-logo" alt="Logo">
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button type="button" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
       <!-- Left nav links -->
-      <ul class="navbar-nav gap-3 left-links">
+      <ul class="navbar-nav gap-3 left-links me-auto">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
         </li>
@@ -45,13 +56,8 @@
         </li>
       </ul>
 
-      <!-- Center logo -->
-      <a class="navbar-brand center-logo text-center" href="#">
-        <img src="./fabassests/logo (1).png" class="fabindia-logo" alt="Logo">
-      </a>
-
       <!-- Right nav links -->
-      <ul class="navbar-nav gap-3 right-links">
+      <ul class="navbar-nav gap-3 right-links ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#about">About us</a>
         </li>
@@ -62,9 +68,10 @@
           <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
         </li>
       </ul>
-
     </div>
-  </nav>
+
+  </div>
+</nav>
 
   <section class="hero-section d-flex align-items-center ">
     <div class="container  ">
@@ -77,8 +84,8 @@
           <a href="#" class="btn btn-dark mt-3">Shop Now</a>
         </div>
 
-        <!-- Center Background Image -->
-        <div class="col-md-4 d-none d-md-block text">
+        <!-- Center  Image -->
+        <div class=" col-12 col-md-4  text-center my-4 text">
           <img src="/fabassests/bgimg.png" alt="" class="img-fluid center-img" data-aos="zoom-in"data-aos-duration="1000"  >
         </div>
 
